@@ -28,7 +28,7 @@ fig = cf.datagen.lines().figure(kind='scatter',xTitle='Dates',yTitle='Returns',t
 fig.show()
 fig1.show()
 
-fig.append_trance()
+# fig.append_trance()
 
 
 
