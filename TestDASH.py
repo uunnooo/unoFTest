@@ -20,8 +20,8 @@ fig3 = px.bar(df, x='Fruit', y='Amount', color='City', barmode='group')
 
 app.layout = html.Div(children=[
     html.H1(children='Hello Dash'),
-    html.Div(children="Dash: A bel application framework for Python"), dcc.Graph(id='example-graph1', figure=fig1,
-                                                                                 style={'width': '49%'}),
+    # html.Div(children="Dash: A bel application framework for Python"),
+    dcc.Graph(id='example-graph1', figure=fig1, style={'width': '49%'}),
     html.Div(children="Dash: B bel application framework for Python"), dcc.Graph(id='example-graph2', figure=fig2),
     html.Div(children="Dash: C bel application framework for Python"), dcc.Graph(id='example-graph3', figure=fig3),
 
